@@ -1,0 +1,24 @@
+
+
+nav img {
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+
+#mainlogo img{
+width: 30%;
+height: 30%;
+display: inline-block;
+position: relative;
+}
+
+header {
+  position:
+  background-color: hsla(43, 100%, 57%, 70);
+
+}
+
+.ingredient {
+  font-family: 'Merriweather', serif;
+}
