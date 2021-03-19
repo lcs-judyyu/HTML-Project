@@ -16,9 +16,10 @@
       </div>
     <p><a href="https://www.allrecipes.com/account/signin/?actionsource=recipe&loginreferrerurl=%2Frecipe%2F10549%2Fbest-brownies%2F&testcookieredirect=1" target="_blank">Login</a> |  <a href="https://www.allrecipes.com/account/signup/" target="_blank">Sign up</a></p>
     <!--search bar-->
-    <form class="searchrecipes" action="https://www.allrecipes.com/search/results/?">
-     <input type="text" placeholder="More Chocolate Recipes">
-     <button type="submit"><i class="search"></i></button>
+    <form class="searchrecipes" method="GET" action="https://www.allrecipes.com/search/results/?">
+     <input id="textarea" type="text" name="search" placeholder="More Chocolate Recipes">
+     <input id="submit" type="image" src="search-icon.png" value="Search"/>
+     <!--<button type="submit"><i class="search"></i></button>-->
     </form>
 
   </header>
@@ -30,12 +31,12 @@
       <img id="profile" src="profile.png"/>
       <h3>By <a href="https://www.allrecipes.com/cook/sunnyside1@hotmail.com/recipes/" target="_blank">Angie</a></h3>
       <!--image of brownies-->
-      <div class="image">
-        <a href="https://www.allrecipes.com/video/617/best-brownies/"><img class="browniesimage" src= "chocolatebrownie.png"/></a>
+      <figure class="image">
+        <a id="video1" href="https://www.allrecipes.com/video/617/best-brownies/"><img class="browniesimage" src= "chocolatebrownie.png"/></a>
       <div class="middle">
         <div class="watch">Watch the video</div>
       </div>
-      </div>
+      </figure>
       <!--list of ingredients-->
       <h2 class="ingredient">Ingredients</h2>
         <section class="list">
@@ -58,6 +59,7 @@
         </section>
 
    <!--steps-->
+   <section>
     <h2 class="step">Steps</h2>
       <ol class="steps">
         <li>Preheat the oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch square pan.</li>
@@ -66,14 +68,26 @@
         <br>
         <li><strong>To Make Frosting:</strong> Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners' sugar. Stir until smooth. Frost brownies while they are still warm.</li>
       </ol>
-    <section>
+   
+   </section>
+   <section>
+      <h3>Nutrition Facts</h3>
+    <article>
+      <p><strong>Per Serving:</strong> 183 calories; protein 1.8g; carbohydrates 25.7g; fat 9g; cholesterol 44.2mg; sodium 109.7mg.</p>
+    </article>
+   </section>
+      <!--see more-->
+   <aside class="see-other">
+      <h3>See other chocolate recipes</h3>
 
-    </section>
+
+    </aside>
 
   </main>
 
 
   <footer>
+
 
   </footer>
  </body>
