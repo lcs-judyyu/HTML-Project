@@ -29,8 +29,8 @@ header {
 
 .browniesimage {
   border-radius: 5px;
-  width:600px;
-  height: 400px;
+  width:500px;
+  height: 300px;
   transition: .5s ease;
   margin: 10px, 10px;
   display: block;
@@ -79,4 +79,15 @@ form.searchrecipes button {
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+.searchrecipes input {
+  min-width: 250px;
+  min-height: 30px;
 }
