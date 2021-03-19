@@ -23,7 +23,9 @@ header {
 
 }
 
-.ingredient {
+.ingredient,
+.step,
+.nutrition h3 {
   font-family: 'Merriweather', serif;
 }
 
@@ -102,4 +104,8 @@ background: white;
 padding: 0px;
 height: 16px;
 width: 16px;
+}
+
+.nutrition h3 {
+
 }
