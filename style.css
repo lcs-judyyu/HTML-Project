@@ -1,9 +1,12 @@
-
+* {
+  box-sizing: border-box;
+}
 
 nav img {
-width: 20px;
-height: 20px;
+width: 40px;
+height: 40px;
 display: inline-block;
+cursor: context-menu;
 }
 
 #mainlogo img{
@@ -14,11 +17,66 @@ position: relative;
 }
 
 header {
-  position:
-  background-color: hsla(43, 100%, 57%, 70);
+  position:static;
+  /*background-color: hsla(43, 100%, 57%, 0.4;*/
+  background-color: hsla(352, 19%, 46%, 0.6);
 
 }
 
 .ingredient {
   font-family: 'Merriweather', serif;
+}
+
+.browniesimage {
+  border-radius: 5px;
+  width:600px;
+  height: 400px;
+  transition: .5s ease;
+  margin: 10px, 10px;
+  display: block;
+}
+
+main {
+  /*background-color: hsla(45, 97%, 75%, 0.5);*/
+  background-color: beige;
+}
+.watch {
+  background-color: hsla(0, 0%, 22%, 1);;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: 50px 50px;
+  }
+
+.image:hover img {
+  opacity: 0.4;
+}
+
+.image:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  display: block;
+}
+
+form.searchrecipes button {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: hsla(45, 97%, 75%, 0.5);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
 }
