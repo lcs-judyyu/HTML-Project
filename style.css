@@ -19,7 +19,7 @@ position: relative;
 header {
   position:static;
   /*background-color: hsla(43, 100%, 57%, 0.4;*/
-  background-color: hsla(352, 19%, 46%, 0.6);
+  background-color: hsla(352, 19%, 46%, 0.2);
 
 }
 
@@ -76,27 +76,15 @@ main {
   z-index: -1;
 }
 
-/*form.searchrecipes button {
-  float: right;
-  width: 20%;
-  padding: 10px;
-  background: hsla(45, 97%, 75%, 0.5);
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}*/
-
 #profile {
   border-radius: 50%;
   width: 20%;
   height: 20%;
 }
 
-.searchrecipes.textarea {
+.searchrecipes #textarea {
   min-width: 250px;
-  min-height: 30px;
+  min-height: 22px;
 }
 
 input#submit {
