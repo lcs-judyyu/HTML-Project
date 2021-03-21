@@ -108,7 +108,7 @@ flex-direction: column;
 }
 
 nav img,
-#mainlogo,
+nav figure#mainlogo,
 header p,
 header input{
   display: inline-block;
@@ -127,3 +127,31 @@ height: 30%;
 width: 30%;
 height: 30%;
 }
+
+footer .subscribe-icons img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/*
+.subscribe-icons img#facebook-hover,
+.subscribe-icons img#twitter-hover,
+.subscribe-icons img#instagram-hover,
+.subscribe-icons img#pinterest-hover {
+  display: none;  
+}
+.subscribe-icons:hover img#facebook-hover,
+.subscribe-icons:hover img#twitter-hover,
+.subscribe-icons:hover img#instagram-hover,
+.subscribe-icons:hover img#pinterest-hover {
+  display: inline-block; 
+  z-index: 2; 
+}
+
+.subscribe-icons:hover img#facebook,
+.subscribe-icons:hover img#twitter,
+.subscribe-icons:hover img#instagram,
+.subscribe-icons:hover img#pinterest {
+  display: none;  
+}*/
