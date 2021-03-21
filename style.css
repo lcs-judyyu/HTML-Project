@@ -99,7 +99,7 @@ width: 16px;
 
 }
 
-.chocolate-images img{
+.see-other img{
 width: 40%;
 height: 40%;
 margin: 0px 0px;
@@ -115,7 +115,7 @@ header input{
 }
 
 footer {
-background-color: hsla(45, 97%, 75%, 0.5)
+background-color: #F7F7E3;
 }
 
 #footer-logo {
@@ -133,25 +133,3 @@ footer .subscribe-icons img {
   width: 30px;
   height: 30px;
 }
-
-/*
-.subscribe-icons img#facebook-hover,
-.subscribe-icons img#twitter-hover,
-.subscribe-icons img#instagram-hover,
-.subscribe-icons img#pinterest-hover {
-  display: none;  
-}
-.subscribe-icons:hover img#facebook-hover,
-.subscribe-icons:hover img#twitter-hover,
-.subscribe-icons:hover img#instagram-hover,
-.subscribe-icons:hover img#pinterest-hover {
-  display: inline-block; 
-  z-index: 2; 
-}
-
-.subscribe-icons:hover img#facebook,
-.subscribe-icons:hover img#twitter,
-.subscribe-icons:hover img#instagram,
-.subscribe-icons:hover img#pinterest {
-  display: none;  
-}*/
