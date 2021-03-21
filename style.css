@@ -13,7 +13,8 @@ cursor: context-menu;
 width: 30%;
 height: 30%;
 display: inline-block;
-position: relative;
+clear: none;
+/*position: relative;*/
 }
 
 header {
@@ -96,4 +97,33 @@ width: 16px;
 
 .nutrition h3 {
 
+}
+
+.chocolate-images img{
+width: 40%;
+height: 40%;
+margin: 0px 0px;
+display: flex;
+flex-direction: column;
+}
+
+nav img,
+#mainlogo,
+header p,
+header input{
+  display: inline-block;
+}
+
+footer {
+background-color: hsla(45, 97%, 75%, 0.5)
+}
+
+#footer-logo {
+width: 30%;
+height: 30%;
+}
+
+#meredith {
+width: 30%;
+height: 30%;
 }
