@@ -1,6 +1,25 @@
 * {
   box-sizing: border-box;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.list input[type="text"] {
+font-family: 'PT Sans';
+}
 
 nav img {
 width: 40px;
@@ -30,57 +49,58 @@ header {
   font-family: 'Merriweather', serif;
 }
 
+main h1 {
+  font-family: lobster;
+  font-size: 45px;
+}
+
 .browniesimage {
   border-radius: 5px;
-  width:500px;
-  height: 300px;
+  width:60%;
+  height: 35%;
   transition: .5s ease;
-  margin: 10px, 10px;
+  margin: 10px, 10px, 5px, 10px;
   display: block;
 }
 
 main {
-  /*background-color: hsla(45, 97%, 75%, 0.5);*/
-  background-color: beige;
+  background-color: hsla(60, 56%, 91%, 0.5);
 }
 .watch {
-  background-color: hsla(0, 0%, 22%, 1);;
-  color: white;
-  font-size: 18px;
-  padding: 16px 32px;
-  border: 50px 50px;
   z-index: 2;
+  border-radius: 4px;
+  width: 15%;
+  height: 15%;
   }
 
-.image:hover img {
+.browniesimage:hover  {
   opacity: 0.4;
 }
+/*
+.browniesimage:hover .watch {
+opacity: 1;
+display: block;
+}*/
 
-.image:hover .middle {
-  opacity: 1;
-}
-
-.middle {
+.middle{
   transition: .5s ease;
-  opacity: 0;
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 70%;
 }
 
-.image {
+.browniesimage {
   display: block;
 }
 
 #video1 {
-  z-index: -1;
+
 }
 
 #profile {
   border-radius: 50%;
-  width: 20%;
-  height: 20%;
+  width: 7%;
+  height: 7%;
 }
 
 .searchrecipes #textarea {
@@ -115,21 +135,51 @@ header input{
 }
 
 footer {
-background-color: #F7F7E3;
+  background-color: hsla(132, 9%, 89%, 0.8);
+/*background-color: hsl(60, 56%, 93%);*/
+}
+
+#above-footer-line.solid {
+  border-top: 3px solid hsla(14, 65%, 45%, 0.5);
 }
 
 #footer-logo {
-width: 30%;
-height: 30%;
+width: 20%;
+height: 10%;
+padding: 10px;
+clear: both;
 }
 
 #meredith {
-width: 30%;
-height: 30%;
+width: 18%;
+height: 18%;
+
 }
 
 footer .subscribe-icons img {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+margin: 10px;
+}
+
+#below-footer-line.solid {
+  border-top: 1px solid hsla(0, 0%, 73%, 0.5);
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+}
+
+.copyright {
+  background-color:white;
+}
+
+.copyright p {
+  font-family: Lato;
+  font-size: 12px;
+
 }
