@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+/*links*/
+a {
+color: brown;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -26,12 +32,14 @@ width: 40px;
 height: 40px;
 display: inline-block;
 cursor: context-menu;
+margin: 10px;
 }
 
 #mainlogo img{
 width: 30%;
 height: 30%;
 clear: none;
+margin: 0 auto;
 /*position: relative;*/
 }
 
@@ -47,7 +55,8 @@ header {
 
 .ingredient,
 .step,
-.nutrition h3 {
+.nutrition h3,
+#frosting {
   font-family: 'Merriweather', serif;
 }
 
@@ -78,11 +87,6 @@ main {
 .browniesimage:hover  {
   opacity: 0.4;
 }
-/*
-.browniesimage:hover .watch {
-opacity: 1;
-display: block;
-}*/
 
 .middle{
   transition: .5s ease;
@@ -93,10 +97,6 @@ display: block;
 
 .browniesimage {
   display: block;
-}
-
-#video1 {
-
 }
 
 #profile {
@@ -117,8 +117,12 @@ height: 16px;
 width: 16px;
 }
 
-.nutrition h3 {
+.steps {
+  font-family: 'PT Sans';
+}
 
+.nutrition p {
+font-family: 'PT Sans';
 }
 
 .see-other img{
@@ -152,11 +156,16 @@ padding: 10px;
 clear: both;
 }
 
-#meredith {
-width: 18%;
-height: 18%;
-
+footer h4 {
+  font-family: 'Public Sans';
+  font-size: 14px;
 }
+
+footer h3 {
+font-family: 'Carter One';
+color: hsla(0, 0%, 0%, 0.85);
+}
+
 
 footer .subscribe-icons img {
 border-radius: 50%;
@@ -176,12 +185,26 @@ margin: 10px;
   left: 50%;
 }
 
+/*copyright*/
+
+#meredith {
+width: 18%;
+height: 18%;
+margin: 20px auto;
+}
+
 .copyright {
   background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .copyright p {
   font-family: Lato;
   font-size: 12px;
-
+justify-content: center;
+margin: 0 auto;
+overflow: scroll;
 }
