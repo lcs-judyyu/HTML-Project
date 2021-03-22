@@ -17,7 +17,7 @@ a:active {
   text-decoration: underline;
 }
 
-.list input[type="text"] {
+checkbox {
 font-family: 'PT Sans';
 }
 
@@ -31,15 +31,17 @@ cursor: context-menu;
 #mainlogo img{
 width: 30%;
 height: 30%;
-display: inline-block;
 clear: none;
 /*position: relative;*/
 }
 
 header {
   position:static;
-  /*background-color: hsla(43, 100%, 57%, 0.4;*/
-  background-color: hsla(352, 19%, 46%, 0.2);
+  background-color: hsla(19, 63%, 50%, 0.5);
+  /*background-color: hsla(43, 100%, 57%, 0.4);*/
+  /*display: grid;
+  height: 100px;
+  width: auto;*/
 
 }
 
