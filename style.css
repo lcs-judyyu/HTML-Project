@@ -103,6 +103,7 @@ main {
   border-radius: 50%;
   width: 7%;
   height: 7%;
+  
 }
 
 .searchrecipes #textarea {
@@ -128,7 +129,7 @@ font-family: 'PT Sans';
 .see-other img{
 width: 40%;
 height: 40%;
-margin: 0px 0px;
+margin: 0px;
 display: flex;
 flex-direction: column;
 }
@@ -157,8 +158,8 @@ clear: both;
 }
 
 footer h4 {
-  font-family: 'Public Sans';
-  font-size: 14px;
+font-family: 'Public Sans';
+font-size: 14px;
 }
 
 footer h3 {
@@ -179,10 +180,10 @@ margin: 10px;
 }
 
 .vl {
-  border-left: 1px solid grey;
-  height: 200px;
-  position: absolute;
-  left: 50%;
+border-left: 1px solid grey;
+height: 200px;
+position: absolute;
+left: 50%;
 }
 
 /*copyright*/
@@ -194,16 +195,16 @@ margin: 20px auto;
 }
 
 .copyright {
-  background-color:white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
+background-color:white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
 }
 
 .copyright p {
-  font-family: Lato;
-  font-size: 12px;
+font-family: Lato;
+font-size: 12px;
 justify-content: center;
 margin: 0 auto;
 overflow: scroll;
